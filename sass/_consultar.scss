@@ -1,0 +1,44 @@
+.container--consultar {
+  align-items: flex-start;
+  background-color: #e7e9eb;
+}
+.content--resultado {
+  padding: 10px;
+  .enlace {
+    text-align: center;
+    background-color: #ffff;
+    font-size: 1.3em;
+    padding: 10px 0;
+    a {
+      color: #2a3b47;
+      font-weight: 600;
+    }
+  }
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table {
+  &__header {
+    background-color: #1083d5;
+    th {
+      font-size: 1.2em;
+      font-weight: normal;
+      padding: 15px;
+      letter-spacing: 0.8px;
+      color: #fff;
+    }
+  }
+
+  &__body {
+    background-color: #e7e9eb;
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    td {
+      padding: 12px;
+      color: #2a3b47;
+    }
+  }
+}

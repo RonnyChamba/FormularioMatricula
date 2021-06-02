@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="assets/css/generales.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container container--consultar">
 
     <section class ="content content--resultado">
       <h1 class="title">Estudiantes Matriculados</h1>
       <section >
         <table>
-          <thead class="table__head">
+          <thead class="table__header">
             <tr>
               <th>Codigo</th>
               <th>Cedula</th>
@@ -36,8 +36,8 @@
               <th>Paralelo</th>
               <th>Nivel</th>
               <th>Fecha Matricula</th>
-        </tr>
-        </thead>
+            </tr>
+          </thead>
         <?php
         
         $resultado = mysqli_query($coneccion, $consultaSql);
