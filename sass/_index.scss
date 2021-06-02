@@ -1,6 +1,6 @@
 $margin_enlace: 15px;
 .menu {
-  background-color: red;
+  background-color: #2196f3;
   border-radius: 5px;
   border-top-left-radius: 15px;
   max-width: 500px;
@@ -20,12 +20,12 @@ $margin_enlace: 15px;
     font-size: 1.2em;
     text-align: center;
     padding: 10px 0;
-    color: #fff;
-    border: 1px solid #000;
+    color: #000000;
+    border: 2px solid #0069c0;
     border-radius: 10px;
     letter-spacing: 1px;
     &:hover {
-      background-color: lightcoral;
+      background-color: #6ec6ff;
     }
   }
 }

@@ -2,40 +2,53 @@
   max-width: 800px;
 }
 form {
-  background-color: blue;
+  background-color: #fff;
   padding: 20px 5px;
   padding-right: 11px;
   padding-bottom: 0;
+  box-shadow: 2px 2px 3px rgb(98, 98, 134), -2px -2px 3px rgb(98, 98, 134);
 }
 .datos {
-  background-color: green;
   padding: 10px;
   width: 100%;
   border: none;
-  box-shadow: 1px 1px 3px grey, -1px -1px 3px grey;
+  box-shadow: 1px 1px 2px #2a3b47, -1px -1px 2px #2a3b47;
   &:nth-child(2) {
     margin-top: 20px;
   }
 }
 .datos legend {
   font-size: 1.2em;
+  padding-bottom: 20px;
+  color: #2a3b47;
+  font-weight: 600;
 }
 
 .row {
   margin: 10px 0;
-  label {
+  > label {
     display: block;
     margin-bottom: 5px;
     font-size: 1.1em;
     font-weight: 500;
+    // color: #929a9c;
+    color: #2a3b47;
+  }
+  > div label {
+    color: #778183;
   }
   input,
   select {
     display: block;
     width: 100%;
     padding: 7px 5px;
-    border: none;
     color: grey;
+    border: none;
+    box-shadow: 1px 1px 2px #929a9c, -1px -1px 2px #929a9c;
+    // border: 1px solid #929a9c;
+  }
+  input[type="radio"] {
+    box-shadow: none;
   }
   input:hover,
   select:hover {

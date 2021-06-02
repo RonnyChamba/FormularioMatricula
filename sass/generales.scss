@@ -1,11 +1,13 @@
 // Estilos generales
 @import "index";
 @import "matricula";
+
 .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fbfbfe;
 }
 .content {
   width: 100%;
@@ -23,9 +25,13 @@ ul {
 input[type="submit"] {
   display: block;
   width: 100%;
-  background-color: rgb(39, 58, 114);
+  background-color: #1192ee;
+  color: #fbfbfe;
+  font-size: 1.2em;
 }
 .title {
   text-align: center;
   font-size: 1.3em;
+  // color: #2a3b47;
+  color: #1192ee;
 }
