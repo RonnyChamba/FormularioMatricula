@@ -11,30 +11,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultar</title>
-    <link rel="stylesheet" href="css/fontello.css" />
-    <link rel="stylesheet" href="css/tabla.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/generales.css">
   </head>
   <body>
-    <header class="container">
-      <h1 class="title">Estudiantes Matriculados</h1>
-    </header>
+    <div class="container">
 
-    <main class="container">
-      <section class ="content content--resultado">
+    <section class ="content content--resultado">
+      <h1 class="title">Estudiantes Matriculados</h1>
+      <section >
         <table>
-          <thead>
+          <thead class="table__head">
             <tr>
+              <th>Codigo</th>
               <th>Cedula</th>
               <th>Nombres</th>
               <th>Apellidos</th>
               <th>Fecha Nacimiento</th>
+              <th>Sexo</th>
               <th>Edad</th>
               <th>Provincia</th>
               <th>Estado</th>
               <th>Carrera</th>
               <th>Paralelo</th>
               <th>Nivel</th>
-              <th>Fec Matricula</th>
+              <th>Fecha Matricula</th>
         </tr>
         </thead>
         <?php
@@ -49,13 +50,24 @@
             while($row = mysqli_fetch_assoc($resultado)) {
         ?>
 
-        <tr>
-          <td><?php echo  $row['CEDULA'] ;?>  </td>
-          <td><?php echo  $row['NOMBRE'] ;?> </td>
-          <td><?php echo  $row['APELLIDO'] ;?> </td>
-          <td><?php echo  $row['FE_NACIMIENTO'] ;?> </td>
-          <td><?php echo  $row['EDAD'] ;?> </td>
-        </tr>
+        <tbody class ="table__body">
+          <tr>
+            <td><?php echo  $row['CODIGO'] ;?>  </td>
+            <td><?php echo  $row['CEDULA'] ;?>  </td>
+            <td><?php echo  $row['NOMBRE'] ;?> </td>
+            <td><?php echo  $row['APELLIDO'] ;?> </td>
+            <td><?php echo  $row['FE_NACIMIENTO'] ;?> </td>
+            <td><?php echo  $row['SEXO'] ;?> </td>
+            <td><?php echo  $row['EDAD'] ;?> </td>
+            <td><?php echo  $row['PROVINCIA'] ;?> </td>
+            <td><?php echo  $row['ESTADO'] ;?> </td>
+            <td><?php echo  $row['CARRERA'] ;?> </td>
+            <td><?php echo  $row['PARALELO'] ;?> </td>
+            <td><?php echo  $row['NIVEL'] ;?> </td>
+            <td><?php echo  $row['FE_MATRICULA'] ;?> </td>
+          </tr>
+        </tbody>
+        
         <?php
         }
 
@@ -77,17 +89,7 @@
         <a href="https://programandoimaginando.com/RONNY/notas/" title="Volver al inicio">Volver al inicio</a>
       </div>
        </section>
-    </main>
-
-    <footer class="footer container">
-      <div class="container--flex pie">
-        <p class="copy">Ronny Chamba &copy; 2020</p>
-        <div class="sociales">
-          <a href="#" class="icon-facebook" title="Facebook"></a>
-          <a href="#" class="icon-instagram" title="Instagram"></a>
-          <a href="#" class="icon-twitter" title="Twitter"></a>
-        </div>
-      </div>
-    </footer>
+     </section>
+    </div>
   </body>
 </html>
