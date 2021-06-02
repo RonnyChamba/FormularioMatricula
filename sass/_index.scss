@@ -1,0 +1,29 @@
+$margin_enlace: 15px;
+.menu {
+  background-color: red;
+  border-radius: 5px;
+  border-top-left-radius: 15px;
+}
+
+.lista {
+  padding: 10px 0;
+  &__item {
+    margin-bottom: $margin_enlace;
+    &:first-child {
+      margin-top: $margin_enlace;
+    }
+  }
+  &__link {
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    &:hover {
+      background-color: lightcoral;
+    }
+  }
+}
