@@ -1,6 +1,4 @@
 // Estilos generales
-@import "index";
-@import "matricula";
 
 .container {
   min-height: 100vh;
@@ -35,3 +33,6 @@ input[type="submit"] {
   // color: #2a3b47;
   color: #1192ee;
 }
+
+@import "index";
+@import "matricula";
