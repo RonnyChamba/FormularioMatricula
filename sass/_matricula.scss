@@ -1,5 +1,11 @@
 .content--form {
-  background-color: red;
+  max-width: 800px;
+}
+form {
+  background-color: blue;
+  padding: 20px 5px;
+  padding-right: 11px;
+  padding-bottom: 0;
 }
 .datos {
   background-color: green;
@@ -7,6 +13,9 @@
   width: 100%;
   border: none;
   box-shadow: 1px 1px 3px grey, -1px -1px 3px grey;
+  &:nth-child(2) {
+    margin-top: 20px;
+  }
 }
 .datos legend {
   font-size: 1.2em;
@@ -45,6 +54,7 @@
   padding: 10px;
   &__item {
     display: flex;
+    // justify-content: space-around;
     margin: 10px 0;
     align-items: center;
     label {
@@ -67,5 +77,32 @@
     display: inline-block;
     text-transform: capitalize;
     margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 678px) {
+  .content .title {
+    font-size: 2em;
+  }
+  form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .datos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .row {
+    width: 45%;
+  }
+  // contenedor de la  foto
+  .row-9 {
+    flex-grow: 1;
+  }
+  .estado-civil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
