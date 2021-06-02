@@ -202,7 +202,7 @@
           </fieldset>
           <div class="botones">
             <input type="submit" value="Registrar" />
-            <a href="#">regresar</a>
+            <a href="index.php">regresar</a>
           </div>
         </form>
       </section>

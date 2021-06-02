@@ -21,7 +21,7 @@
             <a href="consultar.php" class="lista__link">Ver matr&iacute;culas</a>
           </li>
           <li class="lista__item">
-            <a href="#" class="lista__link">Ir al blog</a>
+            <a href="https://ronnyrene.blogspot.com/" class="lista__link" tarjet ="_blank">Ir al blog</a>
           </li>
         </ul>
       </nav>

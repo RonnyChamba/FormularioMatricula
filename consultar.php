@@ -86,7 +86,7 @@
         ?>
       </table>
       <div class="enlace">
-        <a href="https://programandoimaginando.com/RONNY/notas/" title="Volver al inicio">Volver al inicio</a>
+        <a href="index.php" title="Volver al inicio">Volver al inicio</a>
       </div>
        </section>
      </section>
