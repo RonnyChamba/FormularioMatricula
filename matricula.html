@@ -12,7 +12,11 @@
     <div class="container">
       <section class="content content--form">
         <h1 class="title">Registrar Matr&iacute;cula</h1>
-        <form action="#" method="POST" enctype="multipart/form-data">
+        <form
+          action="php/insertar.php"
+          method="POST"
+          enctype="multipart/form-data"
+        >
           <fieldset class="datos datos--personales">
             <legend>Datos Personales</legend>
 
