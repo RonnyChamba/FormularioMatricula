@@ -13,12 +13,12 @@
       <nav class="content menu">
         <ul class="lista">
           <li class="lista__item">
-            <a href="matricula.html" class="lista__link"
+            <a href="matricula.php" class="lista__link"
               >Nueva matr&iacute;cula</a
             >
           </li>
           <li class="lista__item">
-            <a href="#" class="lista__link">Ver matr&iacute;culas</a>
+            <a href="consultar.php" class="lista__link">Ver matr&iacute;culas</a>
           </li>
           <li class="lista__item">
             <a href="#" class="lista__link">Ir al blog</a>

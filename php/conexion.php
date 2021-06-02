@@ -8,7 +8,7 @@
   $host="localhost";
   $usser="root";
   $password="Losmaspepas2018";
-  $dataBase="prueba2";
+  $dataBase="prueba";
   
   // Conección a la base datos
   $coneccion = mysqli_connect($host,$usser,$password,$dataBase);
