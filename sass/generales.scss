@@ -33,7 +33,18 @@ input[type="submit"] {
   // color: #2a3b47;
   color: #1192ee;
 }
-
+img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+.content--mensaje {
+  text-align: center;
+  box-shadow: 1px 1px 2px gray, -1px -1px 2px gray;
+  max-width: 450px;
+  padding-bottom: 20px;
+}
 @import "index";
 @import "matricula";
-@import "consultar"
+@import "consultar";
