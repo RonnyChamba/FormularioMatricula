@@ -16,7 +16,7 @@
   if (!$coneccion){
       
        echo " <h1 style = \"text-align:center;\">Error de conexion</h1>";
-       echo "<a   href = \"https://programandoimaginando.com/RONNY/notas/\" style =\"text-decoration:none; display:block;text-align:center; 
+       echo "<a   href = \"https://programandoimaginando.com/RONNY/formulariomatricula/\" style =\"text-decoration:none; display:block;text-align:center; 
        color: royalblue;font-size:1.2em;\">Regresar al inicio</a>";
 
        die();
