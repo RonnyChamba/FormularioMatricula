@@ -18,13 +18,13 @@
     <div class="container container--consultar">
 
     <section class ="content content--resultado">
-      <h1 class="title">Estudiantes Matriculados</h1>
+      <h1 class="title">Estudiantes Matr&iacute;culados</h1>
       <section >
         <table>
           <thead class="table__header">
             <tr>
-              <th>Codigo</th>
-              <th>Cedula</th>
+              <th>C&oacute;digo</th>
+              <th>C&eacute;dula</th>
               <th>Nombres</th>
               <th>Apellidos</th>
               <th>Fecha Nacimiento</th>
@@ -35,7 +35,7 @@
               <th>Carrera</th>
               <th>Paralelo</th>
               <th>Nivel</th>
-              <th>Fecha Matricula</th>
+              <th>Fecha Matr&iacute;cula</th>
             </tr>
           </thead>
         <?php

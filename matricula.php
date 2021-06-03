@@ -59,7 +59,7 @@
             <div class="row row-5">
               <label for="edad">Edad:</label>
 
-              <input type="number" name="yearold" id="edad" required />
+              <input type="number" name="yearold" id="edad" placeholder="Ingrese solo números" required />
             </div>
             <div class="row row-6">
               <label for="provincia">Provincia nacimiento:</label>
@@ -202,7 +202,7 @@
           </fieldset>
           <div class="botones">
             <input type="submit" value="Registrar" />
-            <a href="index.php">regresar</a>
+            <a href="index.php">Volver al inicio</a>
           </div>
         </form>
       </section>
