@@ -202,7 +202,7 @@
           </fieldset>
           <div class="botones">
             <input type="submit" value="Registrar" />
-            <a href="index.php">Volver al inicio</a>
+            <a href="https://programandoimaginando.com/RONNY/formulariomatricula/">Volver al inicio</a>
           </div>
         </form>
       </section>

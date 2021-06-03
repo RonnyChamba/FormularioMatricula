@@ -49,8 +49,8 @@ form {
   input[type="radio"] {
     box-shadow: none;
   }
-  input:hover,
-  select:hover {
+  input:focus,
+  select:focus {
     color: black;
   }
 }

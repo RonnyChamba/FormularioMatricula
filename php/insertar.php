@@ -25,7 +25,7 @@ $consultaSql = "INSERT INTO DATOSESTUDIANTES VALUES (NULL,'$nombre', '$apellido'
 $resultado = mysqli_query($coneccion, $consultaSql);
 
 if ($resultado){
-   header("location:https://programandoimaginando.com/RONNY/notas/mensajeCorrecto.php");
+   header("location:https://programandoimaginando.com/RONNY/formulariomatricula/php/mensajeCorrecto.php");
   
 }else{
   echo "No se inserto el registro";
